@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+
+  .btn-primary {
+    border-radius: 15px;
+    border-color: var(--color-gray-700);
+    border-width: 2px;
+    background-color: var(--color-yellow-50);
+    padding-inline: --spacing(8);
+    padding-block: --spacing(3);
+    font-weight: var(--font-weight-semibold);
+    font-family: var(--font-serif);
+    font-size: var(--text-xl);
+    color: var(--color-black);
+    box-shadow: var(--shadow-md);
+    &:hover {
+      @media (hover: hover) {
+        background-color: #595e3c;
+        border-color: #595e3c;
+        color: var(--color-white);
+      }
+    }
+  }
