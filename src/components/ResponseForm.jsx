@@ -6,13 +6,13 @@ const ResponseForm = () => {
         <div role="main" className="flex-col m-auto max-h-max  ">
             <div className='bg-[url(../assets/backgrounds/wedding-venue-sample.jpg)] bg-cover bg-right-bottom min-w-screen min-h-screen p-0 m-0'>
                 <div className="grid h-96 grid-cols-1 place-items-center">
-                    <div className='font-style-script text-white text-4xl font-bold text-shadow-md/80 leading-loose'>
+                    <div className='font-style-script text-yellow-50 text-5xl font-bold text-shadow-md/80 leading-loose tracking-wider'>
                         <h1 className='text-4xl '>You're invited to Danica & Junyoung's Wedding</h1>
-                        <h1 className=''>Saturday 12th December 2025</h1>
+                        <h1 className=''>Day Month Year</h1>
                         <h1 className=''>Venue / Time</h1>
                     </div>
                     <div className='font-outfit text-white text-2xl text-shadow-md/80 '>
-                        <p className=''>Space for details of the day and information to include in RSVP below</p>
+                        <p className='text-yellow-50'>Space for details of the day and information to include in RSVP below</p>
                     </div>
                     <div>
                         <form className='font-outfit text-white text-2xl text-shadow-md/80 ' action="submit">
