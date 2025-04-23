@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Outfit:wght@100..900&family=Style+Script&display=swap');
 @import "tailwindcss/preflight";
 @import "tailwindcss";
 @tailwind utilities;
@@ -6,6 +6,8 @@
 
 @theme {
   --font-imperial: "Imperial Script", cursive;
+  --font-style-script: "Style Script", cursive;
+  --font-outfit: "Outfit", sans-serif;
 }
 
 
