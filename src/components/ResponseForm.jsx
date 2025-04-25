@@ -1,6 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const ResponseForm = () => {
+  const nav = useNavigate();
+
+  // Return to homepage
+  const backButton = (e) => {
+    e.preventDefault();
+    nav('/');
+  }
+
   return (
     <>
         <div role="main" className="max-h-max text-yellow-50">
@@ -362,8 +371,8 @@ Gluten Free                                            name="dietary-options"
 
 
                             <div className='flex justify-center'>
-                                <button className='btn-primary'>Submit</button>
-                                <button className='btn-primary'>Back</button>
+                                <button className='btn-primary' type='submit'>Submit</button>
+                                <button className='btn-primary' onClick={(e) => {backButton(e)}}>Back</button>
                             </div>
                         </form>
                     </div>
