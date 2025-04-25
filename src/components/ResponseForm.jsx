@@ -16,8 +16,8 @@ const ResponseForm = () => {
             <div className='bg-[url(../assets/backgrounds/wedding-venue-sample.jpg)] bg-cover bg-right-bottom min-w-screen min-h-screen'>
                 <div className="flex-row ">
                     <div className='font-style-script text-5xl font-bold text-shadow-md/80 leading-loose tracking-wider'>
-                        <div className='flex justify-center'>
-                            <h1 className='text-4xl '>You're invited to Danica & Junyoung's Wedding</h1>
+                        <div className='flex justify-center pt-6'>
+                            <h1 className=''>You're invited to Danica & Junyoung's Wedding</h1>
                         </div>
                         <div className='flex justify-center'>
                             <h1 className=''>Day Month Year</h1>
@@ -28,19 +28,19 @@ const ResponseForm = () => {
                     </div>
                     <div className='flex justify-center'>
                         <div className='font-outfit text-2xl text-shadow-md/80 '>
-                            <p className=''>Space for details of the day and information to include in RSVP below</p>
+                            <p className='pb-4'>Space for details of the day and information to include in RSVP below</p>
                         </div>
                     </div>
                     <div>
                         <form className='font-outfit text-2xl text-shadow-md/80' action="submit">
                             <div className=''>
-                                <div className='flex justify-center my-2'>
+                                <div className='flex justify-center my-4 text-pink-300'>
                                     <legend>Contact details</legend>
                                 </div>
                                 <div className='flex justify-center'>
-                                    <label htmlFor='respondent-name'>Name:&ensp;</label>
-                                    <div className='mt-6 space-y-6'>
-                                        <div className='flex items-center gap-x-3 rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600'>
+                                    <label htmlFor='respondent-name' className='flex items-center'>Name:&ensp;</label>
+                                    <div className=''>
+                                        <div className='gap-x-3 rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600'>
                                             <input
                                                 id='respondent-name'
                                                 name='respondent-name'
@@ -50,9 +50,9 @@ const ResponseForm = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='flex justify-center'>
-                                    <label htmlFor='respondent-email'>Email:&ensp;</label>
-                                    <div className='mt-6 space-y-6'>
+                                <div className='flex justify-center my-4'>
+                                    <label htmlFor='respondent-email' className='flex items-center'>Email:&ensp;</label>
+                                    <div className=''>
                                         <div className='flex items-center gap-x-3 rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600'>
                                             <input
                                                 id='respondent-email'
@@ -67,13 +67,13 @@ const ResponseForm = () => {
                             </div>
 
                             <fieldset>
-                                <div className='flex justify-center'>
+                                <div className='flex justify-center mt-4 text-pink-300'>
                                     <legend>Response</legend>
                                 </div>
                                 <p></p>
-                                <div className='mt-6 space-y-6'>
+                                <div className='mt-2 mb-4'>
                                 <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                    <div className='flex items-center gap-x-3'>
                                         <input
                                             defaultChecked
                                             id="rsvp-yes"
@@ -83,7 +83,7 @@ const ResponseForm = () => {
                                         />
                                         <label htmlFor="rsvp-yes">Coming</label>
                                     </div>
-                                    <div className='flex justify-center gap-x-3'>
+                                    <div className='flex items-center gap-x-3'>
                                     <input
                                             id="rsvp-no"
                                             name="rsvp-response"
@@ -96,7 +96,7 @@ const ResponseForm = () => {
                                 </div>
                             </fieldset>
                             <fieldset>
-                                <div className='flex justify-center'>
+                                <div className='flex justify-center mt-4 text-pink-300'>
                                     <legend>Further details</legend>
                                 </div>
                                 <div className='flex justify-center'>
@@ -104,7 +104,7 @@ const ResponseForm = () => {
                                 </div>
 
                                 <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                    <div className='flex items-center gap-x-3'>
                                         <input
                                             defaultChecked
                                             id="rsvp-morning"
@@ -114,7 +114,7 @@ const ResponseForm = () => {
                                         />
                                         <label htmlFor="rsvp-morning">Morning</label>
                                     </div>
-                                    <div className='flex justify-center gap-x-3'>
+                                    <div className='flex items-center gap-x-3'>
                                         <input
                                             id="rsvp-afternoon"
                                             name="rsvp-details"
@@ -123,7 +123,7 @@ const ResponseForm = () => {
                                         />
                                         <label htmlFor="rsvp-afternoon">Afternoon</label>
                                     </div>
-                                    <div className='flex justify-center gap-x-3'>
+                                    <div className='flex items-center gap-x-3'>
                                         <input
                                             id="rsvp-all"
                                             name="rsvp-details"
@@ -152,7 +152,7 @@ const ResponseForm = () => {
                                     </div>
                             </fieldset>
 
-                            <div className='flex justify-center'>
+                            <div className='flex justify-center mt-4 text-pink-300'>
                                     <legend>Dietary requirements</legend>
                             </div>
 
@@ -370,9 +370,9 @@ const ResponseForm = () => {
                                 </div>
 
 
-                            <div className='flex justify-center'>
-                                <button className='btn-primary' type='submit'>Submit</button>
-                                <button className='btn-primary' onClick={(e) => {backButton(e)}}>Back</button>
+                            <div className='flex justify-center py-8'>
+                                <button className='btn-primary mx-4' type='submit'>Submit</button>
+                                <button className='btn-primary mx-4' onClick={(e) => {backButton(e)}}>Back</button>
                             </div>
                         </form>
                     </div>
