@@ -154,17 +154,16 @@ const ResponseForm = () => {
 
                             <div className='flex justify-center'>
                                     <legend>Dietary requirements</legend>
-                                </div>
-                                <div className='flex justify-center'>
-                                </div>
+                            </div>
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                            <div className='flex-col justify-center'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-dairy"
                                             name="dietary-options"
                                             type="checkbox"
-                                            className="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                            className="col-start-1 row-start-1 appearance-auto rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                             <svg
                                                 fill="none"
@@ -193,13 +192,13 @@ const ResponseForm = () => {
                                     </div>
                                 </div>
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-gluten"
-Gluten Free                                            name="dietary-options"
+                                            name="dietary-options"
                                             type="checkbox"
-                                            className="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                            className="col-start-1 row-start-1 appearance-auto rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                             <svg
                                                 fill="none"
@@ -228,13 +227,13 @@ Gluten Free                                            name="dietary-options"
                                     </div>
                                 </div>
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-fish"
                                             name="dietary-options"
                                             type="checkbox"
-                                            className="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                            className="col-start-1 row-start-1 appearance-auto rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                             <svg
                                                 fill="none"
@@ -263,13 +262,13 @@ Gluten Free                                            name="dietary-options"
                                     </div>
                                 </div>
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-animal"
                                             name="dietary-options"
                                             type="checkbox"
-                                            className="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                            className="col-start-1 row-start-1 appearance-auto rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                             <svg
                                                 fill="none"
@@ -298,13 +297,13 @@ Gluten Free                                            name="dietary-options"
                                     </div>
                                 </div>
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-other"
                                             name="dietary-options"
                                             type="checkbox"
-                                            className="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                            className="col-start-1 row-start-1 appearance-auto rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                         />
                                             <svg
                                                 fill="none"
@@ -334,8 +333,8 @@ Gluten Free                                            name="dietary-options"
                                 </div>
 
 
-                                <div className='flex justify-center gap-5'>
-                                    <div className='flex justify-center gap-x-3'>
+                                <div className='flex justify-center'>
+                                    <div className='flex justify-start'>
                                         <input
                                             id="dietary-"
                                             name="dietary-options"
@@ -367,6 +366,7 @@ Gluten Free                                            name="dietary-options"
                                     <div>
                                         <label htmlFor="dietary-"></label>
                                     </div>
+                                </div>
                                 </div>
 
 
