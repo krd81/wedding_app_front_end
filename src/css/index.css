@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Outfit:wght@100..900&family=Style+Script&display=swap');
-@import "tailwindcss/preflight";
 @import "tailwindcss";
+@import "./styles/custom-preflight.css";
 @tailwind utilities;
 
 
@@ -28,22 +28,8 @@
   }
 }
 
-
-
-/*
-:root {
-
-
+:host {
+  margin: initial;
+  padding: initial;
 }
 
-
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-*/

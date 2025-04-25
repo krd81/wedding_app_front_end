@@ -7,6 +7,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  layers: {
+    theme: {},
+    base: {},
+    components: {},
+    utilities: {},
+    },
   theme: {
     extend: {
       fontFamily: {
